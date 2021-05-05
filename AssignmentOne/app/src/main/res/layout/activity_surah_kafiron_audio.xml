@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".SurahKafironAudio">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahKafironPlayButton"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:text="Play"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahKafironStopButton"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="348dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/surahKafironPauseButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/surahKafironPauseButton"
+        app:layout_constraintTop_toBottomOf="@+id/surahKafironPauseButton"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahKafironPauseButton"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Pause"
+        app:layout_constraintEnd_toEndOf="@+id/surahKafironPlayButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/surahKafironPlayButton"
+        app:layout_constraintTop_toBottomOf="@+id/surahKafironPlayButton"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

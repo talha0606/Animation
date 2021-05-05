@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurahNasAudio"
+    android:background="@drawable/background2">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahNasPlayButton"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:text="Play"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahNasStopButton"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="348dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/surahNasPauseButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/surahNasPauseButton"
+        app:layout_constraintTop_toBottomOf="@+id/surahNasPauseButton"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahNasPauseButton"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Pause"
+        app:layout_constraintEnd_toEndOf="@+id/surahNasPlayButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/surahNasPlayButton"
+        app:layout_constraintTop_toBottomOf="@+id/surahNasPlayButton"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

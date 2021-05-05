@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ourqul">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.4QulOfQuran">
+
+        <activity android:name=".SurahIkhlasAudio"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".SurahIkhlasDashboard"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".VideoActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity android:name=".SurahNasAudio"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SurahNasDashboard"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SurahFalakAudio"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SurahFalakDashboard"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".SurahKafironAudio"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SurahKafironDashboard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SurahIkhlas"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SurahNas"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SurahFalak"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SurahKafiron"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Dashboard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

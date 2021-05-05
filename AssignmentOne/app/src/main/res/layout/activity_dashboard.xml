@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="4 Qul of Quran"
+        android:textAlignment="center"
+        android:textSize="55dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahKafironButton"
+        android:layout_width="351dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:text="Surah Al-Kafiron"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahIkhlasButton"
+        android:layout_width="351dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:text="Surah Al-Ikhlas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/surahKafironButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/surahKafironButton"
+        app:layout_constraintTop_toBottomOf="@+id/surahKafironButton"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahFalakButton"
+        android:layout_width="351dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:text="Surah Al-Falak"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/surahIkhlasButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/surahIkhlasButton"
+        app:layout_constraintTop_toBottomOf="@+id/surahIkhlasButton"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahNasButton"
+        android:layout_width="351dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:text="Surah Al-Nas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/surahFalakButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/surahFalakButton"
+        app:layout_constraintTop_toBottomOf="@+id/surahFalakButton"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

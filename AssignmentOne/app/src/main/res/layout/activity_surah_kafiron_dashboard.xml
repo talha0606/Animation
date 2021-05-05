@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".SurahKafironDashboard">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahKafironAudioButton"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:text="Audio"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/surahKafironReadButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/surahKafironReadButton"
+        app:layout_constraintTop_toBottomOf="@+id/surahKafironReadButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahKafironVideoButton"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="363dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:text="Video"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/surahKafironAudioButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/surahKafironAudioButton"
+        app:layout_constraintTop_toBottomOf="@+id/surahKafironAudioButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/surahKafironReadButton"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/gradient"
+        android:fontFamily="cursive"
+        android:text="Read"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
